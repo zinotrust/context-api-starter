@@ -1,7 +1,7 @@
 import "./App.scss";
 import React, { useState } from "react";
-import { userData } from "./components/propsDrilling/data";
-import UserList from "./components/propsDrilling/UserList";
+import { userData } from "./components/context-api/data";
+import UserList from "./components/context-api/UserList";
 
 function App() {
   const [users, setusers] = useState(userData);
